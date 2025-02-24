@@ -1,12 +1,12 @@
 {
-"name": "Robin-web-pair",
-    "version": "0.0.1",
+"name": "Queen-web-pair",
+    "version": "3.0.0",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name Robin",
-      "stop": "pm2 stop robin",
-     "restart": "pm2 restart robin"
+      "start": "pm2 start index.js --deep-monitoring --attach --name Queen",
+      "stop": "pm2 stop queen",
+     "restart": "pm2 restart queen"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.9",
