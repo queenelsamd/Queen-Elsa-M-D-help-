@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `☠️ *𝗗𝗢 𝗡𝗢𝗧 𝗦𝗛𝗔𝗥𝗘 𝗧𝗛𝗜𝗦 𝗖𝗢𝗗𝗘 𝗧𝗢 𝗔𝗡𝗬𝗢𝗡𝗘* ☠️`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "",
+                url: "https://github.com/queenelsamd/Queen-Elsa-help-/blob/main/Vmake1740322805527.png?raw=true",
               },
               caption: sid,
             });
