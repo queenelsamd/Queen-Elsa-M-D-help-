@@ -1,7 +1,7 @@
 {
   "name": "queen-elsa-md",
   "description": "I am Suhail-Md Whatsapp radip arosha built in NodeJs",
-  "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
+  "logo": "https://github.com/queenelsamd/Queen-Elsa-help-/blob/main/Vmake1740248561141%20(1).png?raw=true",
   "keywords": ["whatsappbot", "queen elsa", "queen Md bot", "queen-elsa-Md","queen-elsa-Md Whatsapp Bot","multi device"],
   "success_url": "/queen elsa/",
   "app_url": "/queen elsa/",
@@ -32,7 +32,7 @@
     "IMAGE": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
+      "value": "https://github.com/queenelsamd/Queen-Elsa-help-/blob/main/Vmake1740248561141%20(1).png?raw=true"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
