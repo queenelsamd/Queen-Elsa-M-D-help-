@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*𝗤𝗨𝗘𝗘𝗡 𝗘𝗟𝗦𝗔 [𝗧𝗛𝗘 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗪𝗔 𝗕𝗢𝗧]*\n\n contact+wa.me/94773283124\n\n You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GqlPuCYXVEp1Q6y5chjoaN*`;
-            const mg = `☠️ *𝗗𝗢 𝗡𝗢𝗧 𝗦𝗛𝗔𝗥𝗘 𝗧𝗛𝗜𝗦 𝗖𝗢𝗗𝗘 𝗧𝗢 𝗔𝗡𝗬𝗢𝗡𝗘* ☠️`;
+            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/queenelsamd/Queen-Elsa-help-/blob/main/Vmake1740322805527.png?raw=true",
+                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
               },
               caption: sid,
             });
@@ -94,7 +94,7 @@ router.get("/", async (req, res) => {
             });
             const msg1 = await RobinPairWeb.sendMessage(user_jid, { text: mg });
           } catch (e) {
-            exec("pm2 restart Robin-md");
+            exec("pm2 restart prabath");
           }
 
           await delay(100);
@@ -125,7 +125,8 @@ router.get("/", async (req, res) => {
 
 process.on("uncaughtException", function (err) {
   console.log("Caught exception: " + err);
-  exec("pm2 restart Robin-md");
+  exec("pm2 Robin restart");
 });
 
 module.exports = router;
+              
