@@ -94,7 +94,7 @@ router.get("/", async (req, res) => {
             });
             const msg1 = await RobinPairWeb.sendMessage(user_jid, { text: mg });
           } catch (e) {
-            exec("pm2 restart prabath");
+            exec("pm2 restart Robin-md");
           }
 
           await delay(100);
@@ -125,7 +125,7 @@ router.get("/", async (req, res) => {
 
 process.on("uncaughtException", function (err) {
   console.log("Caught exception: " + err);
-  exec("pm2 restart Robin");
+  exec("pm2 restart Robin-md");
 });
 
 module.exports = router;
