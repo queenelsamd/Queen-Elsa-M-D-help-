@@ -17,7 +17,7 @@ const upload = (data, name) => {
       const uploadStream = storage.upload({ name, allowUploadBuffering: true });
 
       uploadStream.on("complete", (file) => {
-        file.link((err, url) => {
+        file.downloadLink((err, url) => {
           if (err) {
             reject(err);
           } else {
@@ -31,7 +31,11 @@ const upload = (data, name) => {
         reject(err);
       });
 
-      data.pipe(uploadStream);
+      if (data.pipe) {
+        data.pipe(uploadStream);
+      } else {
+        reject(new Error("Data is not a readable stream."));
+      }
     });
 
     storage.on("error", (err) => {
