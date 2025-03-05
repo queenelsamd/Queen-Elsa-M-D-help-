@@ -3,8 +3,8 @@
   "description": "I am Suhail-Md Whatsapp radip arosha built in NodeJs",
   "logo": "https://github.com/queenelsamd/Queen-Elsa-help-/blob/main/Vmake1740248561141%20(1).png?raw=true",
   "keywords": ["whatsappbot", "queen elsa", "queen Md bot", "queen-elsa-Md","queen-elsa-Md Whatsapp Bot","multi device"],
-  "success_url": "/queen elsa/",
-  "app_url": "/queen elsa/",
+  "success_url": "/queen-elsa/",
+  "app_url": "/queen-elsa/",
   
   "env": {
     "OWNER_NAME": {
@@ -37,7 +37,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Radip Arosha"
+      "value": "Asia/Colombo"
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
@@ -133,7 +133,7 @@
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
+      "value": "Queen Elsa",
       "required": false 
     }
   }, 
@@ -152,4 +152,4 @@
           "size": "standard-2x"
       }
   }
-  }
+}
